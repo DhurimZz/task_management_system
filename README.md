@@ -1,8 +1,5 @@
 # Task Management System
 
-A simple React Native (Expo) app to manage a personal list of tasks. Built for
-the PRITECH React Native technical task.
-
 ## Features
 
 - **Task list** with empty state and pull-to-refresh-free instant updates.
@@ -47,6 +44,14 @@ Then scan the QR code with Expo Go (iOS Camera / Expo Go on Android), or press
 npm run android
 npm run ios
 ```
+
+If you have problem to run the project because internet connection, try these:
+
+npx expo start --tunnel
+
+or
+
+npx expo start --offline
 
 ## Public API
 
